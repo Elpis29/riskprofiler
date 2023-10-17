@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Profiling Questionnaire</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Risk Profiling Questionnaire</h1>
+        <p>Complete the following questionnaire to assess your risk profile.</p>
+    </header>
+    <form id="questionnaire-form">
+        <!-- Date -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <!-- Client Information -->
+        <label for="firstName">Client First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Client Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="advisor">Advisor:</label>
+        <select id="advisor" name="advisor" required>
+            <option value="option1">Advisor 1</option>
+            <option value="option2">Advisor 2</option>
+            <!-- Add more options for advisors as needed -->
+        </select><br>
+
+        <!-- Question 1 -->
+        <h2>1. What is your primary investment requirement?</h2>
+        <label>
+            <input type="radio" name="q1" value="5"> Protection of capital (5)
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="20"> A steady income stream with moderate growth in capital (20)
+        </label><br>
+        <!-- Add options for Question 1 as needed -->
+
+        <!-- Question 2 -->
+        <h2>2. What is your primary investment goal?</h2>
+        <!-- Add options for Question 2 as above -->
+
+        <!-- Repeat the structure for Questions 3-11 -->
+
+        <!-- Digital Signature -->
+        <h2>Digital Signature</h2>
+        <!-- Add a digital signature input field or integration here -->
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <!-- Add footer content if needed -->
+    </footer>
+</body>
+</html>
